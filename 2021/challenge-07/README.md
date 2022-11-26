@@ -1,8 +1,8 @@
-#### Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
+ Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
 
-#### Vamos a crear una función ``` contains ``` que recibe dos parámetros: un objeto que define el almacén y el producto que buscamos.
+ Vamos a crear una función ``` contains ``` que recibe dos parámetros: un objeto que define el almacén y el producto que buscamos.
 
-#### La función debe devolver un booleano que indique si se encuentra el string como valor en algún nivel del objeto. Veamos unos ejemplos:
+ La función debe devolver un booleano que indique si se encuentra el string como valor en algún nivel del objeto. Veamos unos ejemplos:
 
 ```js
 const almacen = {
@@ -37,4 +37,4 @@ const otroAlmacen = {
 contains(otroAlmacen, 'gameboy') // false
 ```
 
-#### Ten en cuenta que la tienda es enorme. Tiene diferentes almacenes y, como has visto en los ejemplos, cada uno puede tener diferentes organizaciones. **Lo importante es buscar que el producto está en los almacenes.**
+ Ten en cuenta que la tienda es enorme. Tiene diferentes almacenes y, como has visto en los ejemplos, cada uno puede tener diferentes organizaciones. **Lo importante es buscar que el producto está en los almacenes.**
