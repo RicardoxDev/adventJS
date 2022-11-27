@@ -11,5 +11,3 @@ function isValid(letter) {
   
  return booleanValid
 }
-
-isValid(letter)

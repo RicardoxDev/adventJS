@@ -17,6 +17,4 @@ function listGifts(letter) {
   return  objLetter
 }
 
-listGifts(carta)
-
 

@@ -12,5 +12,3 @@ const createXmasTree = (height) => {
   tree += treeBase + "\n" + treeBase
   return tree
 }
-
-createXmasTree(5)

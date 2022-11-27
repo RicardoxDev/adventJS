@@ -14,7 +14,7 @@ const pricesEth = [10, 20, 30, 40, 50, 60, 70]
 maxProfit(pricesEth) // -> 60 (compra a 10, vende a 70)
 ```
 
- **Si ese día no se puede sacar ningún beneficio**, tenemos que devolver ``` -1 ``` para evitar que hagamos una locura:
+ **Si ese día no se puede sacar ningún beneficio**, tenemos que devolver `-1` para evitar que hagamos una locura:
 
 ```js
 const pricesDoge = [18, 15, 12, 11, 9, 7]

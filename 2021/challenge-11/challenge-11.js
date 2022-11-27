@@ -10,5 +10,3 @@ function shouldBuyFidelity(times) {
   }
   return normalPrice > fidelityPrice
 }
-
-shouldBuyFidelity(times)

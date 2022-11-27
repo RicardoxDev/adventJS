@@ -5,5 +5,3 @@ function daysToXmas(date) {
   
   return resultDays
 }
-
-daysToXmas(date)

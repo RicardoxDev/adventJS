@@ -2,9 +2,9 @@
 
  Mi cine favorito tiene dos posibilidades:
 
-   • Entrada de un sólo uso: Cuesta 12$ por cada película.
+ * Entrada de un sólo uso: Cuesta 12$ por cada película.
 
-   • Tarjeta de fidelidad: Cuesta 250$ pero que cada vez que vas **pagas sólo el 75% del precio del ticket**. ¡Lo mejor es que se acumula! Y cada vez que vas, se paga el 75% del precio del ticket que pagaste la última vez.
+ * Tarjeta de fidelidad: Cuesta 250$ pero que cada vez que vas **pagas sólo el 75% del precio del ticket**. ¡Lo mejor es que se acumula! Y cada vez que vas, se paga el 75% del precio del ticket que pagaste la última vez.
 
  Ejemplo de cada una al comprar 3 entradas y el precio que pagaría en total:
 

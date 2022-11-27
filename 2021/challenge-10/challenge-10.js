@@ -11,5 +11,3 @@ function getCoins(change) {
   }
   return codeChange
 }
-
-getCoins(51)

@@ -10,6 +10,3 @@ function wrapGifts(gifts) {
   giftBody.push(`*${"*".repeat(giftSpace)}*`)
   return giftBody
 }
-
-wrapGifts(["📷", "⚽️"])
-wrapGifts(["🏈🎸", "🎮🧸"])

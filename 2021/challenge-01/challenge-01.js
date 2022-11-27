@@ -8,5 +8,3 @@ function contarOvejas(ovejas) {
   
   return ovejasFinales
 }
-
-contarOvejas(ovejas)

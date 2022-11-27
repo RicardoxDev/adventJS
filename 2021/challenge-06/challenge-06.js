@@ -17,5 +17,3 @@ function sumPairs(numbers, result) {
   
   return arrPair ?? null
 }
-
-sumPairs([0, 2, 2, 3, -1, 1, 5], 4)

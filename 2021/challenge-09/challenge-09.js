@@ -20,5 +20,3 @@ function groupBy(collection, it) {
   }
   return groupIt
 }
-
-groupBy(collection, it)

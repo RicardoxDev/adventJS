@@ -12,5 +12,3 @@ function maxProfit(prices) {
     ? -1 
     : profit
 }
-
-maxProfit(prices)

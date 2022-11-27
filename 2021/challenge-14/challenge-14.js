@@ -17,5 +17,3 @@ function missingReindeer(ids) {
   return ids[0] === 1 ? 0 : ReindeerId
 }
 
-missingReindeer([0, 2, 3]) // -> 1
-
