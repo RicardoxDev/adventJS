@@ -31,7 +31,6 @@ function decodeNumbers(symbols) {
     }
     if(lastNum < num) {
       result += num - lastNum*2
-      //console.log(num)
     } else {
       result += num
     }
