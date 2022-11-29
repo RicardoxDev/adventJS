@@ -62,6 +62,6 @@
 
 
 ## Others Solutions
-#### This is a repository created by 'borjapazr', here the solutions of different users are collected and you can add your own. please rate it well <3
+**This is a repository created by 'borjapazr', here the solutions of different users are collected and you can add your own. please rate it well <3**
 
 [awesome-adventJS](https://github.com/borjapazr/awesome-adventjs) :turtle:
