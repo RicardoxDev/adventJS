@@ -10,7 +10,7 @@ Necesitamos saber el número de paquetes que una persona va a poder gestionar en
 * `transportista[2]` -> Array con sus subordinados
 
 
-Para que lo veamos en código, tanto el array, como la función de dos parámetros para conseguir el número deseado:
+Para que lo veamos en código, tanto el array, como la función de **dos parámetros** para conseguir el número deseado:
 
 ```js
 const carriers = [
