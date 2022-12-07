@@ -14,8 +14,7 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
     }
     if(acc > maxGiftsValid) maxGiftsValid = acc
     
-    giftsCities.push(giftsCities[0])
-    giftsCities.shift()
+    giftsCities.push(giftsCities.shift())
   })
   
   return maxGiftsValid
