@@ -7,5 +7,5 @@ function createCube(size) {
     cubeDown += repeat(" ", i - 1) + repeat("\\/", size - i + 1) + repeat("_/", size) + "\n"
   }
 
-  return console.log(cubeUp + cubeDown.slice(0, -1))
+  return cubeUp + cubeDown.slice(0, -1)
 }
