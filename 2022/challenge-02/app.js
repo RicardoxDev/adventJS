@@ -1,10 +1,8 @@
 function countHours(year, holidays) {
   let hours = 0
-  holidays.forEach( day => { 
-    const date = new Date(year + "/" + day).getDay()
-    if(date % 6 !== 0) hours += 2
-  })
-  
-  return hours
+  return holidays.forEach( day => { 
+    const date = new Date(day + "/" + year).getDay()
+    const checkDate = (date % 6 !== 0);
+    checkDate && (hours += 2)
+  }), hours
 }
-

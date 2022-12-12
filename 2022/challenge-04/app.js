@@ -1,13 +1,9 @@
 function fitsInOneBox(boxes) {
   boxes.sort((a, b) => a.l - b.l)
-  let isValid = true
-  let lastBox = {}
-  boxes.forEach((box, idx) => {
-    if(box["l"] <= lastBox["l"]) isValid = false
-    if(box["w"] <= lastBox["w"]) isValid = false
-    if(box["h"] <= lastBox["h"]) isValid = false
-    lastBox = box
-  })
   
-  return isValid
+  return boxes.slice(1).every((box, idx) => {
+     return (box["l"] > boxes[idx]["l"]) &&
+    (box["w"] > boxes[idx]["w"]) &&
+    (box["h"] > boxes[idx]["h"])
+  })
 }

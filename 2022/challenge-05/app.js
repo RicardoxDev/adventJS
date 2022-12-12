@@ -1,21 +1,17 @@
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-    let maxGiftsValid = 0
-    const cityLength = giftsCities.length
-  giftsCities.forEach( () => {
+  let maxGiftsValid = 0
+  const cityLength = giftsCities.length
+  return giftsCities.forEach( (city, idx) => {
     let cityCount = 0
     let acc = 0
 
-    for(let idx = 0; idx < cityLength; idx++) {
+    for(idx; idx < cityLength; idx++) {
       if(cityCount === maxCities) break
       if(acc + giftsCities[idx] <= maxGifts) {
-        acc += giftsCities[idx]
-        cityCount++
+      acc += giftsCities[idx]
+      cityCount++
       }
     }
-    if(acc > maxGiftsValid) maxGiftsValid = acc
-    
-    giftsCities.push(giftsCities.shift())
-  })
-  
-  return maxGiftsValid
+    (acc > maxGiftsValid) && (maxGiftsValid = acc)
+  }), maxGiftsValid
 }
