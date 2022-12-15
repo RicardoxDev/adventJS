@@ -1,4 +1,4 @@
-function checkPart(part) {    
+function checkPart(part: string) {    
   return [...part.split("")].some((_, index, array) => {
     const copy = [...array]
     copy.splice(index, 1)

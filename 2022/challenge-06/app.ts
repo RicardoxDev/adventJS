@@ -1,6 +1,6 @@
 function createCube(size: number) {
   const r = (char: string, n: number) => char.repeat(n)
-  let cubeUp: string = "",cubeDown: string = ""
+  let cubeUp = "",cubeDown = ""
   for(let i = 1; i <= size; i++) {
     cubeUp += r(" ", size - i) + r("/\\", i)
     cubeUp += r("_\\", size) + "\n"
